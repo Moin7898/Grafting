@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0%;
+    position: relative;
+    bottom: 50px;
+    height: 20x;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-button {
+    background-color: #0e4708;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 33px;
+}
+  .login-button:hover {
+    background-color: #3367D6;
+  }
+
+  .google-button {
+    background-color: #DB4437;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .google-button:hover {
+    background-color: #C23A32;
+  }
+</style>
+</head>
+<body>
+  <div class="login-container">
+    <h2><img src="/pngtree-green-sprout-leaf-logo-design-template-png-image_4486740-removebg-preview.png" alt="logo">Green vibe</h2>
+    <form>
+      <input type="text" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button class="login-button" type="submit">Login</button>
+      <p>or</p>
+      <button class="google-button">Login with Google</button>
+      <p>Create a new account <a href="/signup.html">Signup</a>
+    </form>
+  </div>
+</body>
+</html>
