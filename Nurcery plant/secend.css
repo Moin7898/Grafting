@@ -1,0 +1,252 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* width: 100%;
+    height: 100%; */
+    font-family: cursive;
+    font-size: 20px;
+}
+main{
+    margin-top: 20px;
+    padding-left:15vw ;
+    padding-right: 10vw;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+main img{
+    width: 40vw;
+    height: 55vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(12, 70, 12);
+    height: 70px;
+    width: 99vw;
+    box-shadow: 0 0 10px rgb(20, 19, 19);
+    color: aliceblue;
+}
+#brand{
+    width: 100%;
+    height: 50px;
+}
+#brand img{
+width: 50px;
+height: 40px;
+}
+#brand span{
+    color: green;
+    position: absolute;
+    top: 5px;
+    font-size: 20px;
+    
+}
+
+
+#logo{
+    
+    width: 250px;
+   
+    display: flex;
+    
+}
+#logo span{
+    padding-top: 0;
+    position: relative;
+    bottom: 26px;
+    font-size: 26px;
+}
+#logo img {
+    width: 30%;
+    padding-left: 20px;
+   
+}
+#manu li{
+    margin: 20px;
+    padding-right: 20px;
+}
+#manulogo{
+    font-size: 20px;
+}
+#searchbox label{
+padding-left: 10px;
+}
+
+
+.cardbox{
+    height: 60vh;
+    display: flex;
+
+}
+.cardimg img{
+    width: 40vw;
+    height: 55vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.insidelist{
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-left: 100px;
+height: 40vh;
+
+}
+.insidelist li{
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.insidelist h3{
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.cardtext h1{
+    margin-left: 95px;
+    font-size: 40px;
+}
+.cardtext{
+   
+    width: 30vw;
+    height: 65vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.materialbox{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    list-style-type: none;
+    height: 40vh;
+}
+.textbox li{
+padding-top: 8px;
+}
+.textbox{
+    padding-top: 20px;
+}
+.materialbox img{
+
+    width: 25vw;
+    height: 35vh;
+    margin-left: 130px;
+}
+#steps{
+    text-align: center;
+    width: 60vw;
+    font-size: 40px;
+}
+.card{
+
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    padding-top: 20px;
+    
+    margin-left: 96px;
+}
+.img-l img{
+width: 25vw;
+height: 25vh;
+}
+.text-l{
+    width: 30vw;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+.img-r img{
+width: 25vw;
+height: 25vh;
+margin-left: 20px;
+}
+.text-r{
+    width: 30vw;
+    padding-top: 50px;
+}
+.option{
+   
+    margin-top: 40px;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+justify-content: space-between;
+
+}
+.option a{
+    color: black;
+}
+.inercard{
+    width: 200px;
+    height: 28vh;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 18px;
+}
+.inercard img{
+    width: 100%;
+    height: 20vh;
+
+}
+
+footer{
+    display: flex;
+    margin-top: 10vh;
+    height: 40vh;
+    background-color: rgb(12, 70, 12);
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+}
+#footerlogo{
+    width: 200px;
+    height: 5px;
+    
+}
+
+#footerlogo{
+    width: 200px;
+    height: 5px;
+    
+}
+
+#footertext{
+    width: 80%;
+    height: 100%;
+  opacity: 0.5;
+}
+#footertext p{
+
+    padding-left: 40px;
+}
+.t1 p{
+    font-size: 20px;
+}
+.t2{
+    padding: 10px;
+}
+.t3{
+    padding: 10px;
+}
+#fbtn{
+height: 30px;
+width: 70px;
+margin-left: 10px;
+}
+#footertext input{
+padding: 8px;
+   background: none;
+   border-radius: 2px;
+   border: black 2px solid;
+   width: 650px;
+}
+.icons{
+    font-size: 50px;
+   display: inline-flex;
+   gap: 50px;
+}
